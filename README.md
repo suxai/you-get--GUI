@@ -29,20 +29,6 @@ Downloading Me at the zoo.webm ...
 Saving Me at the zoo.en.srt ... Done.
 ```
 
-And here's why you might want to use it:
-
-* You enjoyed something on the Internet, and just want to download them for your own pleasure.
-* You watch your favorite videos online from your computer, but you are prohibited from saving them. You feel that you have no control over your own computer. (And it's not how an open Web is supposed to work.)
-* You want to get rid of any closed-source technology or proprietary JavaScript code, and disallow things like Flash running on your computer.
-* You are an adherent of hacker culture and free software.
-
-What `you-get` can do for you:
-
-* Download videos / audios from popular websites such as YouTube, Youku, Niconico, and a bunch more. (See the [full list of supported sites](#supported-sites))
-* Stream an online video in your media player. No web browser, no more ads.
-* Download images (of interest) by scraping a web page.
-* Download arbitrary non-HTML contents, i.e., binary files.
-
 Interested? [Install it](#installation) now and [get started by examples](#getting-started).
 
 Are you a Python programmer? Then check out [the source](https://github.com/soimort/you-get) and fork it!
