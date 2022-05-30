@@ -4,7 +4,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/you-get.svg)](https://pypi.python.org/pypi/you-get/)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/soimort/you-get?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-项目是由you-get项目衍生而来的, 如果你想要将项目打包成exe请直接下载you-get--GUI.py以及logo.ico即可，项目安装方式简介在原作者简介上做了很多的删除，仅保留了两个方便常用的方式，如果你需要更多的安装方式请看(https://github.com/soimort/you-get)
+项目是由you-get项目衍生而来的， 如果你想要将项目打包成exe请直接下载you-get--GUI.py以及logo.ico即可，项目安装方式简介在原作者简介上做了很多的删除，仅保留了两个方便常用的方式，如果你需要更多的安装方式请看(https://github.com/soimort/you-get)
 
 ---
 
