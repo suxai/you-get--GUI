@@ -340,7 +340,7 @@ Translated to human words:
 
 我只在此处发布代码，您将如何使用它由您自行决定。
 
-## Authors
+## 原作者
 
 Made by [@soimort](https://github.com/soimort), who is in turn powered by :coffee:, :beer: and :ramen:.
 
