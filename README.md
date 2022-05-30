@@ -54,30 +54,13 @@ Saving Me at the zoo.en.srt ... Done.
 # pkg install you-get
 ```
 
-### Shell completion
+## 升级
 
-Completion definitions for Bash, Fish and Zsh can be found in [`contrib/completion`](https://github.com/soimort/you-get/tree/develop/contrib/completion). Please consult your shell's manual for how to take advantage of them.
-
-## Upgrading
-
-Based on which option you chose to install `you-get`, you may upgrade it via:
+根据您选择安装 `you-get` 的选项，您可以通过以下方式升级它:
 
 ```
 $ pip3 install --upgrade you-get
 ```
-
-or download the latest release via:
-
-```
-$ you-get https://github.com/soimort/you-get/archive/master.zip
-```
-
-In order to get the latest ```develop``` branch without messing up the PIP, you can try:
-
-```
-$ pip3 install --upgrade git+https://github.com/soimort/you-get@develop
-```
-
 ## Getting Started
 
 ### Download a video
