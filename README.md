@@ -45,53 +45,10 @@ Saving Me at the zoo.en.srt ... Done.
 
     $ pip3 install you-get
 
-### 选择 2: 从Github下载
 
-您可以下载 [stable](https://github.com/soimort/you-get/archive/master.zip) (与 PyPI 上的最新版本相同) 或者 [develop](https://github.com/soimort/you-get/archive/develop.zip) (更多的修补程序，不稳定的功能)的分支 `you-get`. Unzip it, and put the directory containing the `you-get` script into your `PATH`.
+### 选择 2: pkg (FreeBSD only)
 
-Alternatively, run
-
-```
-$ [sudo] python3 setup.py install
-```
-
-Or
-
-```
-$ python3 setup.py install --user
-```
-
-to install `you-get` to a permanent path.
-
-You can also use the [pipenv](https://pipenv.pypa.io/en/latest) to install the `you-get` in the Python virtual environment.
-
-```
-$ pipenv install -e .
-$ pipenv run you-get --version
-you-get: version 0.4.1555, a tiny downloader that scrapes the web.
-```
-
-### Option 4: Git clone
-
-This is the recommended way for all developers, even if you don't often code in Python.
-
-```
-$ git clone git://github.com/soimort/you-get.git
-```
-
-Then put the cloned directory into your `PATH`, or run `./setup.py install` to install `you-get` to a permanent path.
-
-### Option 5: Homebrew (Mac only)
-
-You can install `you-get` easily via:
-
-```
-$ brew install you-get
-```
-
-### Option 6: pkg (FreeBSD only)
-
-You can install `you-get` easily via:
+您可以通过以下方式轻松安装`you-get`:
 
 ```
 # pkg install you-get
