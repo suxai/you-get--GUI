@@ -390,9 +390,9 @@ SOFTWARE.
 
 Translated to human words:
 
-*In case your use of the software forms the basis of copyright infringement, or you use the software for any other illegal purposes, the authors cannot take any responsibility for you.*
+*如您对本软件的使用构成侵犯著作权的基础，或您将本软件用于任何其他非法目的，作者不对您承担任何责任.*
 
-We only ship the code here, and how you are going to use it is left to your own discretion.
+我只在此处发布代码，您将如何使用它由您自行决定。
 
 ## Authors
 
