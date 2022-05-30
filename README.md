@@ -152,23 +152,19 @@ Merging video parts... Merged into Me at the zoo.webm
 Saving Me at the zoo.en.srt ... Done.
 ```
 
-(If a YouTube video has any closed captions, they will be downloaded together with the video file, in SubRip subtitle format.)
-
-Or, if you prefer another format (mp4), just use whatever the option `you-get` shows to you:
+（如果 YouTube 视频有任何隐藏字幕，它们将与视频文件一起以 SubRip 字幕格式下载。）或者，如果您更喜欢其他格式 (mp4)，只需使用您获得的任何选项:
 
 ```
 $ you-get --itag=18 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 ```
 
-**Note:**
+**注释:**
 
-* At this point, format selection has not been generally implemented for most of our supported sites; in that case, the default format to download is the one with the highest quality.
-* `ffmpeg` is a required dependency, for downloading and joining videos streamed in multiple parts (e.g. on some sites like Youku), and for YouTube videos of 1080p or high resolution.
-* If you don't want `you-get` to join video parts after downloading them, use the `--no-merge`/`-n` option.
+* 目前，我们支持的大部分站点还没有普遍实现格式选择； 在这种情况下，要下载的默认格式是质量最高的格式。 164 * `ffmpeg` 是必需的依赖项，用于下载和加入多部分流式传输的视频（例如在优酷等某些网站上），以及 1080p 或高分辨率的 YouTube 视频。 165 * 如果你不希望`you-get`在下载后加入视频部分，使用`--no-merge`
 
-### Download anything else
+### 下载其他任何东西
 
-If you already have the URL of the exact resource you want, you can download it directly with:
+如果你已经有了你想要的确切资源的 URL，你可以直接下载它:
 
 ```
 $ you-get https://stallman.org/rms.jpg
@@ -181,7 +177,7 @@ Downloading rms.jpg ...
 100.0% (  0.1/0.1  MB) ├████████████████████████████████████████┤[1/1]  127 kB/s
 ```
 
-Otherwise, `you-get` will scrape the web page and try to figure out if there's anything interesting to you:
+或者，`you-get` 将抓取网页并尝试找出您是否感兴趣:
 
 ```
 $ you-get http://kopasas.tumblr.com/post/69361932517
@@ -199,23 +195,23 @@ Downloading tumblr_mxhg13jx4n1sftq6do1_1280.png ...
 100.0% (  0.5/0.5  MB) ├████████████████████████████████████████┤[1/1]   22 MB/s
 ```
 
-**Note:**
+**注释:**
 
-* This feature is an experimental one and far from perfect. It works best on scraping large-sized images from popular websites like Tumblr and Blogger, but there is really no universal pattern that can apply to any site on the Internet.
+* 此功能是一项实验性功能，远非完美。它最适合从 Tumblr 和 Blogger 等流行网站抓取大尺寸图片，但实际上没有通用模式可以应用于 Internet 上的任何网站.
 
-### Search on Google Videos and download
+### 在 Google 视频上搜索并下载
 
-You can pass literally anything to `you-get`. If it isn't a valid URL, `you-get` will do a Google search and download the most relevant video for you. (It might not be exactly the thing you wish to see, but still very likely.)
+你可以将任何东西传递给`you-get`。如果它不是一个有效的 URL，`you-get` 将进行 Google 搜索并为您下载最相关的视频。 （这可能不是您希望看到的，但仍然很有可能。）
 
 ```
 $ you-get "Richard Stallman eats"
 ```
 
-### Pause and resume a download
+### 暂停和恢复下载
 
-You may use <kbd>Ctrl</kbd>+<kbd>C</kbd> to interrupt a download.
+你可以使用 <kbd>Ctrl</kbd>+<kbd>C</kbd> 中断下载.
 
-A temporary `.download` file is kept in the output directory. Next time you run `you-get` with the same arguments, the download progress will resume from the last session. In case the file is completely downloaded (the temporary `.download` extension is gone), `you-get` will just skip the download.
+一个临时的“.download”文件保存在输出目录中。 下次您使用相同的参数运行 `you-get` 时，下载进度将从上次会话恢复。 如果文件完全下载（临时 `.download` 扩展名消失了），`you-get` 将跳过下载。
 
 To enforce re-downloading, use the `--force`/`-f` option. (**Warning:** doing so will overwrite any existing file or temporary file with the same name!)
 
