@@ -162,12 +162,16 @@ $ you-get --itag=18 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 
 * 目前，我们支持的大部分站点还没有普遍实现格式选择； 在这种情况下，要下载的默认格式是质量最高的格式。 164 * `ffmpeg` 是必需的依赖项，用于下载和加入多部分流式传输的视频（例如在优酷等某些网站上），以及 1080p 或高分辨率的 YouTube 视频。 165 * 如果你不希望`you-get`在下载后加入视频部分，使用`--no-merge`
 
-### 查看其他用法
+### 查看其他参数
 
 ```
 # you-get -h
 ```
+### 用法
 
+```
+# you-get [OPTION]... URL...
+```
 ## 支持的网站
 
 | Site | URL | Videos? | Images? | Audios? |
