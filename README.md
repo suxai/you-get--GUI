@@ -162,65 +162,10 @@ $ you-get --itag=18 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 
 * 目前，我们支持的大部分站点还没有普遍实现格式选择； 在这种情况下，要下载的默认格式是质量最高的格式。 164 * `ffmpeg` 是必需的依赖项，用于下载和加入多部分流式传输的视频（例如在优酷等某些网站上），以及 1080p 或高分辨率的 YouTube 视频。 165 * 如果你不希望`you-get`在下载后加入视频部分，使用`--no-merge`
 
-### 下载其他任何东西
-
-如果你已经有了你想要的确切资源的 URL，你可以直接下载它:
+### 查看其他用法
 
 ```
-$ you-get https://stallman.org/rms.jpg
-Site:       stallman.org
-Title:      rms
-Type:       JPEG Image (image/jpeg)
-Size:       0.06 MiB (66482 Bytes)
-
-Downloading rms.jpg ...
-100.0% (  0.1/0.1  MB) ├████████████████████████████████████████┤[1/1]  127 kB/s
-```
-
-或者，`you-get` 将抓取网页并尝试找出您是否感兴趣:
-
-```
-$ you-get http://kopasas.tumblr.com/post/69361932517
-Site:       Tumblr.com
-Title:      kopasas
-Type:       Unknown type (None)
-Size:       0.51 MiB (536583 Bytes)
-
-Site:       Tumblr.com
-Title:      tumblr_mxhg13jx4n1sftq6do1_1280
-Type:       Portable Network Graphics (image/png)
-Size:       0.51 MiB (536583 Bytes)
-
-Downloading tumblr_mxhg13jx4n1sftq6do1_1280.png ...
-100.0% (  0.5/0.5  MB) ├████████████████████████████████████████┤[1/1]   22 MB/s
-```
-
-**注释:**
-
-* 此功能是一项实验性功能，远非完美。它最适合从 Tumblr 和 Blogger 等流行网站抓取大尺寸图片，但实际上没有通用模式可以应用于 Internet 上的任何网站.
-
-### 在 Google 视频上搜索并下载
-
-你可以将任何东西传递给`you-get`。如果它不是一个有效的 URL，`you-get` 将进行 Google 搜索并为您下载最相关的视频。 （这可能不是您希望看到的，但仍然很有可能。）
-
-```
-$ you-get "Richard Stallman eats"
-```
-
-### 暂停和恢复下载
-
-你可以使用 <kbd>Ctrl</kbd>+<kbd>C</kbd> 中断下载.
-
-一个临时的“.download”文件保存在输出目录中。 下次您使用相同的参数运行 `you-get` 时，下载进度将从上次会话恢复。 如果文件完全下载（临时 `.download` 扩展名消失了），`you-get` 将跳过下载。
-
-To enforce re-downloading, use the `--force`/`-f` option. (**Warning:** doing so will overwrite any existing file or temporary file with the same name!)
-
-### 设置下载文件的路径和名称
-
-使用 `--output-dir`/`-o` 设置路径的选项, 以及 `--output-filename`/`-O` 设置下载文件的名称:
-
-```
-$ you-get -o ~/Videos -O zoo.webm 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+# you-get -h
 ```
 
 ## 支持的网站
