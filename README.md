@@ -39,21 +39,15 @@ Saving Me at the zoo.en.srt ... Done.
 * **[FFmpeg](https://www.ffmpeg.org/)** 1.0 或以上
 * (可选) [RTMPDump](https://rtmpdump.mplayerhq.hu/)
 
-### 选项 1: 通过 pip 安装
+### 选择 1: 通过 pip 安装
 
 正式发布 `you-get` 分布于 [PyPI](https://pypi.python.org/pypi/you-get), 并且可以通过 PyPI 镜像轻松安装 [pip](https://en.wikipedia.org/wiki/Pip_\(package_manager\)) 包管理器。 请注意，您必须使用 Python 3 版本的`pip`:
 
     $ pip3 install you-get
 
-### 选项 2: Install via [Antigen](https://github.com/zsh-users/antigen) (for Zsh users)
+### 选择 2: 从Github下载
 
-Add the following line to your `.zshrc`:
-
-    antigen bundle soimort/you-get
-
-### Option 3: Download from GitHub
-
-You may either download the [stable](https://github.com/soimort/you-get/archive/master.zip) (identical with the latest release on PyPI) or the [develop](https://github.com/soimort/you-get/archive/develop.zip) (more hotfixes, unstable features) branch of `you-get`. Unzip it, and put the directory containing the `you-get` script into your `PATH`.
+您可以下载 [stable](https://github.com/soimort/you-get/archive/master.zip) (identical with the latest release on PyPI) or the [develop](https://github.com/soimort/you-get/archive/develop.zip) (more hotfixes, unstable features) branch of `you-get`. Unzip it, and put the directory containing the `you-get` script into your `PATH`.
 
 Alternatively, run
 
