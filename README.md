@@ -61,11 +61,11 @@ Saving Me at the zoo.en.srt ... Done.
 ```
 $ pip3 install --upgrade you-get
 ```
-## Getting Started
+## 入门
 
-### Download a video
+### 下载视频
 
-When you get a video of interest, you might want to use the `--info`/`-i` option to see all available quality and formats:
+当您获得感兴趣的视频时，您可能希望使用 `--info`/`-i` 选项查看所有可用的质量和格式:
 
 ```
 $ you-get -i 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
@@ -132,7 +132,7 @@ streams:             # Available quality and codecs
     # download-with: you-get --itag=17 [URL]
 ```
 
-By default, the one on the top is the one you will get. If that looks cool to you, download it:
+默认情况下，顶部的那个是您将获得的那个。如果你觉得这很酷，下载它:
 
 ```
 $ you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
