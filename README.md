@@ -47,7 +47,7 @@ Saving Me at the zoo.en.srt ... Done.
 
 ### 选择 2: 从Github下载
 
-您可以下载 [stable](https://github.com/soimort/you-get/archive/master.zip) (identical with the latest release on PyPI) or the [develop](https://github.com/soimort/you-get/archive/develop.zip) (more hotfixes, unstable features) branch of `you-get`. Unzip it, and put the directory containing the `you-get` script into your `PATH`.
+您可以下载 [stable](https://github.com/soimort/you-get/archive/master.zip) (与 PyPI 上的最新版本相同) 或者 [develop](https://github.com/soimort/you-get/archive/develop.zip) (更多的修补程序，不稳定的功能)的分支 `you-get`. Unzip it, and put the directory containing the `you-get` script into your `PATH`.
 
 Alternatively, run
 
