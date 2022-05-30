@@ -215,69 +215,15 @@ $ you-get "Richard Stallman eats"
 
 To enforce re-downloading, use the `--force`/`-f` option. (**Warning:** doing so will overwrite any existing file or temporary file with the same name!)
 
-### Set the path and name of downloaded file
+### 设置下载文件的路径和名称
 
-Use the `--output-dir`/`-o` option to set the path, and `--output-filename`/`-O` to set the name of the downloaded file:
+使用 `--output-dir`/`-o` 设置路径的选项, 以及 `--output-filename`/`-O` 设置下载文件的名称:
 
 ```
 $ you-get -o ~/Videos -O zoo.webm 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 ```
 
-**Tips:**
-
-* These options are helpful if you encounter problems with the default video titles, which may contain special characters that do not play well with your current shell / operating system / filesystem.
-* These options are also helpful if you write a script to batch download files and put them into designated folders with designated names.
-
-### Proxy settings
-
-You may specify an HTTP proxy for `you-get` to use, via the `--http-proxy`/`-x` option:
-
-```
-$ you-get -x 127.0.0.1:8087 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
-```
-
-However, the system proxy setting (i.e. the environment variable `http_proxy`) is applied by default. To disable any proxy, use the `--no-proxy` option.
-
-**Tips:**
-
-* If you need to use proxies a lot (in case your network is blocking certain sites), you might want to use `you-get` with [proxychains](https://github.com/rofl0r/proxychains-ng) and set `alias you-get="proxychains -q you-get"` (in Bash).
-* For some websites (e.g. Youku), if you need access to some videos that are only available in mainland China, there is an option of using a specific proxy to extract video information from the site: `--extractor-proxy`/`-y`.
-
-### Watch a video
-
-Use the `--player`/`-p` option to feed the video into your media player of choice, e.g. `mpv` or `vlc`, instead of downloading it:
-
-```
-$ you-get -p vlc 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
-```
-
-Or, if you prefer to watch the video in a browser, just without ads or comment section:
-
-```
-$ you-get -p chromium 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
-```
-
-**Tips:**
-
-* It is possible to use the `-p` option to start another download manager, e.g., `you-get -p uget-gtk 'https://www.youtube.com/watch?v=jNQXAC9IVRw'`, though they may not play together very well.
-
-### Load cookies
-
-Not all videos are publicly available to anyone. If you need to log in your account to access something (e.g., a private video), it would be unavoidable to feed the browser cookies to `you-get` via the `--cookies`/`-c` option.
-
-**Note:**
-
-* As of now, we are supporting two formats of browser cookies: Mozilla `cookies.sqlite` and Netscape `cookies.txt`.
-
-### Reuse extracted data
-
-Use `--url`/`-u` to get a list of downloadable resource URLs extracted from the page. Use `--json` to get an abstract of extracted data in the JSON format.
-
-**Warning:**
-
-* For the time being, this feature has **NOT** been stabilized and the JSON schema may have breaking changes in the future.
-
-## Supported Sites
+## 支持的网站
 
 | Site | URL | Videos? | Images? | Audios? |
 | :--: | :-- | :-----: | :-----: | :-----: |
@@ -360,9 +306,9 @@ Use `--url`/`-u` to get a list of downloadable resource URLs extracted from the 
 | 中国体育(TV) | <http://v.zhibo.tv/> </br><http://video.zhibo.tv/>    |✓| | |
 | 知乎 | <https://www.zhihu.com/>      |✓| | |
 
-For all other sites not on the list, the universal extractor will take care of finding and downloading interesting resources from the page.
+对于不在列表中的所有其他站点，通用提取器将负责从页面中查找和下载有趣的资源.
 
-### Known bugs
+### 已知错误
 
 If something is broken and `you-get` can't get you things you want, don't panic. (Yes, this happens all the time!)
 
@@ -374,7 +320,7 @@ You can reach us on the Gitter channel [#soimort/you-get](https://gitter.im/soim
 
 If you are seeking to report an issue or contribute, please make sure to read [the guidelines](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md) first.
 
-## Legal Issues
+## 法律问题
 
 This software is distributed under the [MIT license](https://raw.github.com/soimort/you-get/master/LICENSE.txt).
 
