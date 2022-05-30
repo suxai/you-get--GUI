@@ -37,15 +37,15 @@ Saving Me at the zoo.en.srt ... Done.
 
 * **[Python](https://www.python.org/downloads/)**  3.8 或以上
 * **[FFmpeg](https://www.ffmpeg.org/)** 1.0 或以上
-* (Optional) [RTMPDump](https://rtmpdump.mplayerhq.hu/)
+* (可选) [RTMPDump](https://rtmpdump.mplayerhq.hu/)
 
-### Option 1: Install via pip
+### 选项 1: 通过 pip 安装
 
-The official release of `you-get` is distributed on [PyPI](https://pypi.python.org/pypi/you-get), and can be installed easily from a PyPI mirror via the [pip](https://en.wikipedia.org/wiki/Pip_\(package_manager\)) package manager. Note that you must use the Python 3 version of `pip`:
+正式发布 `you-get` 分布于 [PyPI](https://pypi.python.org/pypi/you-get), 并且可以通过 PyPI 镜像轻松安装 [pip](https://en.wikipedia.org/wiki/Pip_\(package_manager\)) 包管理器。 请注意，您必须使用 Python 3 版本的`pip`:
 
     $ pip3 install you-get
 
-### Option 2: Install via [Antigen](https://github.com/zsh-users/antigen) (for Zsh users)
+### 选项 2: Install via [Antigen](https://github.com/zsh-users/antigen) (for Zsh users)
 
 Add the following line to your `.zshrc`:
 
