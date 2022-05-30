@@ -29,11 +29,11 @@ Downloading Me at the zoo.webm ...
 Saving Me at the zoo.en.srt ... Done.
 ```
 
-## Installation
+## 安装
 
-### Prerequisites
+### 先决条件
 
-The following dependencies are recommended:
+推荐以下依赖:
 
 * **[Python](https://www.python.org/downloads/)**  3.8 or above
 * **[FFmpeg](https://www.ffmpeg.org/)** 1.0 or above
