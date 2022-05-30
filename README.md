@@ -35,8 +35,8 @@ Saving Me at the zoo.en.srt ... Done.
 
 推荐以下依赖:
 
-* **[Python](https://www.python.org/downloads/)**  3.8 or above
-* **[FFmpeg](https://www.ffmpeg.org/)** 1.0 or above
+* **[Python](https://www.python.org/downloads/)**  3.8 或以上
+* **[FFmpeg](https://www.ffmpeg.org/)** 1.0 或以上
 * (Optional) [RTMPDump](https://rtmpdump.mplayerhq.hu/)
 
 ### Option 1: Install via pip
