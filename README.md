@@ -8,7 +8,7 @@
 
 ---
 
-[You-Get](https://you-get.org/) is a tiny command-line utility to download media contents (videos, audios, images) from the Web, in case there is no other handy way to do it.
+[You-Get](https://you-get.org/)是一个小型命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防万一没有其他方便的方法可以做到这一点。
 
 Here's how you use `you-get` to download a video from [YouTube](https://www.youtube.com/watch?v=jNQXAC9IVRw):
 
